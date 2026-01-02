@@ -1,8 +1,8 @@
 from openai import OpenAI
 import os
-from dotenv import load_env
+from dotenv import load_dotenv
 
-load_env(override=True)
+load_dotenv(override=True)
 
 openai = OpenAI()
 gemini = OpenAI(
